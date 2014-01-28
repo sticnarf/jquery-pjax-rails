@@ -1,10 +1,10 @@
-# Jquery::Pjax::Rails
+# jquery-pjax-rails
 
-TODO: Write a gem description
+This gem is an encapsulation of the jquery-pjax library
 
-## Installation
+## Usage
 
-Add this line to your application's Gemfile:
+Add this line to your Rails application's Gemfile:
 
     gem 'jquery-pjax-rails'
 
@@ -12,13 +12,9 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
+Add the following directive to your Javascript manifest file (application.js):
 
-    $ gem install jquery-pjax-rails
-
-## Usage
-
-TODO: Write usage instructions here
+    //= require jquery.pjax
 
 ## Contributing
 
